@@ -1,37 +1,87 @@
+@import url(Norse-Bold.otf);
+
 body {
 	display: flex;
-	flex-direction: row;
+	margin: 0;
+	padding: 0;
 }
+
 .sidebar {
-	/* background-image: url(jan-kronies-K-x7h4NXtAY-unsplash.jpg); */
-	background-color: red;
+	background-image: url(luca-bravo-ESkw2ayO2As-unsplash.jpg);
 	border: 10px solid black;
-	width: 300px;
-	height: 300px;
+	width: 500px;
+	height: 704px;
+	background-size: 1200px;
 }
 
 .rightSide {
 	display: flex;
 	flex-direction: column;
+	left: 36%;
+	bottom: 20%;
+}
+
+.logoPic {
+	display: flex;
+	position: absolute;
+	top: 150px;
+	left: 150px;
+	opacity: 0.7;
+	background-color: black;
+}
+
+img {
+	width: 100px;
+	height: auto;
+}
+
+.logoFont {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+	color: white;
+	font-size: 45px;
+}
+
+.photoCredit {
+	background-color: black;
+	opacity: 1;
+	color: white;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: bolder;
+	position: absolute;
+	bottom: 1px;
+	left: 15%;
 }
 
 .paragraphTop {
 	background-color: green;
 	border: solid 10px black;
-	width: 100px;
-	height: 100px;
+	width: 900px;
+	height: 150px;
 }
 
 .dataEntry {
 	background-color: pink;
 	border: solid 10px black;
-	width: 100px;
-	height: 100px;
+	width: 900px;
+	height: 30%;
 }
 
 .footerButtons {
 	background-color: gold;
 	border: solid 10px black;
-	width: 100px;
-	height: 100px;
+	width: 900px;
+	height: 150px;
+}
+
+.paragraphTop {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 26px;
+}
+
+label {
+	display: block;
+}
+
+ul {
+	list-style: none;
 }
