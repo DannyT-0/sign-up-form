@@ -8,9 +8,8 @@ body {
 
 .sidebar {
 	background-image: url(luca-bravo-ESkw2ayO2As-unsplash.jpg);
-	border: 10px solid black;
 	width: 500px;
-	height: 704px;
+	height: 714px;
 	background-size: 1200px;
 }
 
@@ -52,30 +51,41 @@ img {
 	left: 15%;
 }
 
-.paragraphTop {
-	background-color: green;
-	border: solid 10px black;
-	width: 900px;
-	height: 150px;
-}
-
-.dataEntry {
-	background-color: pink;
-	border: solid 10px black;
-	width: 900px;
-	height: 30%;
-}
-
-.footerButtons {
-	background-color: gold;
-	border: solid 10px black;
-	width: 900px;
-	height: 150px;
+.paragraphTopContainer {
+	background-color: rgb(247, 244, 244);
+	width: 940px;
+	height: 200px;
 }
 
 .paragraphTop {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 26px;
+	margin-top: 70px;
+	margin-left: 10px;
+}
+
+h3 {
+	margin-left: 50px;
+}
+
+.dataEntry {
+	display: flex;
+	background-color: rgb(245, 245, 245);
+	width: 940px;
+	height: 350px;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+
+.footerButtons {
+	background-color: whitesmoke;
+	width: 940px;
+	height: 165px;
+	border-top: 1px grey solid;
+}
+
+.footerContent {
+	margin-top: 50px;
+	margin-left: 30px;
 }
 
 label {
@@ -84,4 +94,31 @@ label {
 
 ul {
 	list-style: none;
+}
+
+.firstRow {
+	display: inline-flex;
+	gap: 10px;
+	margin-left: 10px;
+}
+
+.secondRow {
+	display: inline-flex;
+	gap: 10px;
+	margin-left: 10px;
+}
+
+.thirdRow {
+	display: inline-flex;
+	gap: 10px;
+	margin-left: 10px;
+}
+
+button {
+	background-color: #596d48;
+	color: white;
+	border-radius: 5px;
+	width: 150px;
+	height: 50px;
+	box-shadow: 1px 1px 1px 1px black;
 }

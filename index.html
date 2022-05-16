@@ -22,39 +22,47 @@
 		</div>
 
 		<div class="rightSide">
-			<div class="paragraphTop">
-				This is not a real online service! You know you need something like this
-				in your life to help you realize your deepest dreams. Sign up
-				<em>now</em> to get started.
-				<br />
-				You <em>know</em> you want to.
+			<div class="paragraphTopContainer">
+				<div class="paragraphTop">
+					This is not a real online service! You know you need something like
+					this in your life to help you realize your deepest dreams. Sign up
+					<em>now</em> to get started.
+					<br />
+					You <em>know</em> you want to.
+				</div>
 			</div>
 			<div class="dataEntry">
 				<form action="">
 					<h3>Sign Up Sheet</h3>
 					<ul>
-						<li>
-							<label for="firstName">First Name</label>
+						<li class="firstRow">
+							<label for="firstName">First Name:</label>
 							<input type="text" name="firstName" id="" firstName />
 						</li>
-						<li>
-							<label for="lastName"> Last Name</label>
+						<li class="firstRow">
+							<label for="lastName"> Last Name:</label>
 							<input type="text" name="lastName" id="lastName" />
 						</li>
-						<li>
-							<label for="email">Email</label>
+					</ul>
+					<br />
+					<ul>
+						<li class="secondRow">
+							<label for="email">Email:</label>
 							<input type="email" name="email" id="email" />
 						</li>
-						<li>
-							<label for="phone">Phone Number</label>
+						<li class="secondRow">
+							<label for="phone">Phone Number:</label>
 							<input type="tel" name="phone" id="phone" />
 						</li>
-						<li>
-							<label for="password">Password</label>
+					</ul>
+					<br />
+					<ul>
+						<li class="thirdRow">
+							<label for="password">Password:</label>
 							<input type="password" name="password" id="password" />
 						</li>
-						<li>
-							<label for="confirmPassword">Confirm Password</label>
+						<li class="thirdRow">
+							<label for="confirmPassword">Confirm Password:</label>
 							<input
 								type="password"
 								name="confirmPassword"
@@ -65,8 +73,10 @@
 				</form>
 			</div>
 			<div class="footerButtons">
-				<button class="button-10" role="button">Create Account</button>
-				<div>Already have an account? Log in here!</div>
+				<div class="footerContent">
+					<button class="button" role="button">Create Account</button>
+					<div>Already have an account? Log in here!</div>
+				</div>
 			</div>
 		</div>
 	</body>
